@@ -37,18 +37,18 @@ while (num <= 1000) {
 }
 
 
-let existingRef = "abcdef";
-let newRef = "";
+let existingRef = 6;
+let newRef = 0;
 
 function generateReference(max) {
     return Math.floor(Math.random() * max) + 1;
 }
 
 do {
-    newRef = generatereference(10)
-    console.log(`the reference is ${newRef}`)
+    newRef = generateReference(10)
+    console.log(`the reference is ${ newRef }`)
 
-} while (newRef == existingRef)
+} while (newRef != existingRef)
 
 console.log('our new transaction reference is: ' + newRef);
 
@@ -59,6 +59,6 @@ var transaction = {
     bank_name: 'Zenith'
 }
 
-console.log
+console.log(transaction)
 
 
