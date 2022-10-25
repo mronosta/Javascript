@@ -67,10 +67,59 @@ const person = {
 //     document.write(`My age is ${p} and my name is ${fname}`);
 // }
 
-function calculator(a,b){
-    document.write(a+b);
+// function calculator(a,b){
+//     document.write(a+b);
+// }
+// calculator(4,8);
+
+// const man = (a,b) =>  a+b;
+   
+// document.write(man(6,5))
+
+
+// const man ;
+
+
+// const calculator = (a,b) => a+b;
+
+// document.write(calculator(8,2));
+
+const students = ['star','Freda', 'Napoleon'];
+
+document.write(students[0])
+const studentsInfo = [
+    {
+        name:'star',
+        hobby:'Not coming to class'
+    },
+    {
+        name:'Freda',
+        hobby:'Disturbing in class'
+    },
+    {
+        name: 'Napoleon',
+        hobby: 'craking dry jokes'
+    },
+]
+
+document.write('<br>' + studentsInfo[2].hobby);
+
+
+let sentence="";
+for(let i = 10 ; i <= 100; i+=10){
+    sentence+= `<br>there are ${i} in class today <br>`;
 }
-calculator(4,8);
+
+document.write(sentence);
+
+
+
+
+
+
+
+
+
 
 
 
